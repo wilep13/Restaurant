@@ -31,7 +31,8 @@ public class Chef {
 	}
 
 	public void showCookHistory() {
-		System.out.println("Chef : " + this.name);
+		System.out.println("Cooking History");
+		System.out.println("Chef Name: " + this.name);
 		for (String string : histories) {
 			System.out.println(string);
 		}
